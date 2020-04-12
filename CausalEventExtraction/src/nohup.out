@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "CausalMention.py", line 308, in <module>
+    FileWalk(rootdir)
+  File "CausalMention.py", line 294, in FileWalk
+    CausalMentionUseList(sentencefile, causalityfile) 
+  File "CausalMention.py", line 237, in CausalMentionUseList
+    output_for_reason.search(sentence)
+AttributeError: 'file' object has no attribute 'search'
+Traceback (most recent call last):
+  File "CausalMention.py", line 308, in <module>
+    FileWalk(rootdir)
+  File "CausalMention.py", line 294, in FileWalk
+    CausalMentionUseList(sentencefile, causalityfile) 
+  File "CausalMention.py", line 240, in CausalMentionUseList
+    output_because.close()
+NameError: global name 'output_because' is not defined
+Traceback (most recent call last):
+  File "CausalMention.py", line 308, in <module>
+    FileWalk(rootdir)
+  File "CausalMention.py", line 294, in FileWalk
+    CausalMentionUseList(sentencefile, causalityfile) 
+  File "CausalMention.py", line 237, in CausalMentionUseList
+    output_for_reason.search(sentence)
+AttributeError: 'file' object has no attribute 'search'
